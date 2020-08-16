@@ -20,7 +20,7 @@ namespace character1
     /// </summary>
     public partial class MainWindow : Window
     {
-        //List<>
+     
         public MainWindow()
         {
             InitializeComponent();
@@ -28,13 +28,10 @@ namespace character1
 
         private void PetalNextButton_Click(object sender, RoutedEventArgs e)
         {
-
+            DisplayPetal.Source = GetNextPetal
         }
        
         
-        public BitmapImage ShowPetal()
-        {
-            return new BitmapImage(new Uri,(Petal, UriKind.Relative));
-        }
+      
     }
 }
