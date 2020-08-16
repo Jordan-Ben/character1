@@ -45,5 +45,6 @@ namespace character1
                 currentLeaf = 0;
             return new BitmapImage(new Uri(Leaf[currentLeaf], UriKind.Relative));
         }
+
     }
 }

@@ -22,6 +22,7 @@ namespace character1
     public partial class MainWindow : Window
     {
         Char character = new Char();
+        
         public MainWindow()
         {
             InitializeComponent();
