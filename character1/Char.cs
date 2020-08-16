@@ -45,6 +45,10 @@ namespace character1
                 currentLeaf = 0;
             return new BitmapImage(new Uri(Leaf[currentLeaf], UriKind.Relative));
         }
+        public Char(string name)
+        {
+            Name = name; name="Anon";}
 
+        public Char() { }
     }
 }

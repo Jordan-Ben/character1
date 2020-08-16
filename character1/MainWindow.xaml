@@ -28,8 +28,8 @@
             </Button.Background>
         </Button>
         <TextBox x:Name="EnterNameBox" HorizontalAlignment="Left" Height="27" Margin="40,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Enter" HorizontalAlignment="Left" Height="28" Margin="94,118,0,0" VerticalAlignment="Top" Width="66" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Left" Height="35" Margin="22,46,0,0" TextWrapping="Wrap" Text="Please enter your flowers name below and then click enter" VerticalAlignment="Top" Width="176"/>
+        <Button x:Name="EnterButton" Content="Enter" HorizontalAlignment="Left" Height="28" Margin="94,118,0,0" VerticalAlignment="Top" Width="66" Click="EnterButton_Click"/>
+        <TextBlock x:Name="DisplayBox" HorizontalAlignment="Left" Height="35" Margin="22,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
 
     </Grid>
 </Window>

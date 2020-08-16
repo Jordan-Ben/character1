@@ -22,11 +22,18 @@ namespace character1
     public partial class MainWindow : Window
     {
         Char character = new Char();
-        
+
         public MainWindow()
         {
             InitializeComponent();
+            Start();
         }
+        public void Start()
+        {
+            DisplayBox.Text = "Please enter your flowers name below and then click enter";
+            
+            }
+
 
         private void PetalNextButton_Click(object sender, RoutedEventArgs e)
         {
@@ -41,6 +48,13 @@ namespace character1
         private void LeafNextButton_Click(object sender, RoutedEventArgs e)
         {
             DisplayLeaf.Source = character.GetNextLeaf();
+        }
+
+        private void EnterButton_Click(object sender, RoutedEventArgs e)
+        {
+            string name = EnterNameBox.Text;
+            DisplayBox.Text = name;
+            EnterNameBox.Text = "";
         }
     }
 }
