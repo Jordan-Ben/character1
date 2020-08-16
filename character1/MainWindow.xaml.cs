@@ -18,9 +18,10 @@ namespace character1
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
     public partial class MainWindow : Window
     {
-     
+        Char character = new Char();
         public MainWindow()
         {
             InitializeComponent();
@@ -28,10 +29,17 @@ namespace character1
 
         private void PetalNextButton_Click(object sender, RoutedEventArgs e)
         {
-            DisplayPetal.Source = GetNextPetal
+            DisplayPetal.Source = character.GetNextPetal();
         }
-       
-        
-      
+
+        private void StemNextButton_Click(object sender, RoutedEventArgs e)
+        {
+            DisplayStem.Source = character.GetNextStem();
+        }
+
+        private void LeafNextButton_Click(object sender, RoutedEventArgs e)
+        {
+            DisplayLeaf.Source = character.GetNextLeaf();
+        }
     }
 }
