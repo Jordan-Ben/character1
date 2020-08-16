@@ -13,15 +13,16 @@
                 <ImageBrush/>
             </Button.Background>
         </Button>
-        <Image x:Name="DisplayPetal" HorizontalAlignment="Left" Height="139" Margin="355,120,0,0" VerticalAlignment="Top" Width="106" Source="Petal5.bmp" Stretch="Fill"/>
+        <Image x:Name="DisplayPetal" HorizontalAlignment="Left" Height="139" Margin="355,120,0,0" VerticalAlignment="Top" Width="106"  Stretch="Fill"/>
         <Rectangle x:Name="StemStyleMat" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="140" Margin="216,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="353"/>
-        <Image x:Name="DisplayStem" HorizontalAlignment="Left" Height="156" Margin="375,189,0,0" VerticalAlignment="Top" Width="67" Source="Stem1.bmp" Stretch="Fill"/>
+        <Image x:Name="DisplayStem" HorizontalAlignment="Left" Height="156" Margin="375,189,0,0" VerticalAlignment="Top" Width="67"  Stretch="Fill"/>
         <Button x:Name="StemNextButton" Content="Next  -&gt;" HorizontalAlignment="Left" Height="45" Margin="489,251,0,0" VerticalAlignment="Top" Width="58">
             <Button.Background>
                 <ImageBrush/>
             </Button.Background>
         </Button>
-        <Image x:Name="LeafDisplay" HorizontalAlignment="Left" Height="115" Margin="278,181,0,0" VerticalAlignment="Top" Width="92" Source="Leaf1.bmp" Stretch="Fill"/>
+        <Image x:Name="DisplayLeaf" HorizontalAlignment="Left" Height="115" Margin="278,181,0,0" VerticalAlignment="Top" Width="92" Stretch="Fill"/>
+        <Button x:Name="LeafNextButton" Content="&lt;- Next" HorizontalAlignment="Left" Height="49" Margin="232,181,0,0" VerticalAlignment="Top" Width="46"/>
 
     </Grid>
 </Window>

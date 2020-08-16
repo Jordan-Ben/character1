@@ -95,19 +95,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Stem1.bmp" />
+    <Resource Include="Images\Stem1.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Stem2.bmp" />
+    <Resource Include="Images\Stem2.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Petal5.bmp" />
+    <Resource Include="Images\Leaf1.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Leaf1.bmp" />
+    <Resource Include="Images\leaf2.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="leaf2.bmp" />
+    <Resource Include="Images\Petal52.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Petal2.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
